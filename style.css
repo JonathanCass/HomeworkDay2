@@ -1,0 +1,21 @@
+.octodex{
+	
+}
+.octocat{
+
+}
+.image-footer{
+	display:flex;
+}
+.image-number:before{
+	content:'#';
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	
+}
+li {
+	list-style-type: none;
+}
