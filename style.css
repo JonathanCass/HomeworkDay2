@@ -1,5 +1,6 @@
 body{
 	font-family:Arial,Sans-serif;
+	padding-top: 100px;
 }
 .octodex{
 	display:flex;
@@ -7,23 +8,30 @@ body{
 .octocat{
 	
 }
-
 .octocat > a > img {
-	width:400px;
+	width:440px;
 	border:#d3d3d3 solid 1px;
 	margin: 10px;
 }
 
 .image-footer img {
-	width:20px;
+	width:30px;
 }
-
-.image-footer{
+.image-footer {
+	width:440px;
+	margin: 10px;
 	display:flex;
-	justify-content:right;
+	justify-content:flex-end;
+	border-bottom:#d3d3d3 solid 1px;
+
 }
 .image-number:before{
 	content:'#';
+}
+.image-number{
+	font-size:18px;
+	font-color:#d3d3d3;
+	margin-top: 7px;
 }
 .image-caption{
 	display:flex;
@@ -43,4 +51,7 @@ span {
 	color: #a9a9a9;
 	margin-left:10px;
 	margin-right:10px;
+}
+.authors{
+	padding:0px;
 }
