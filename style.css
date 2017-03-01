@@ -12,9 +12,7 @@ body{
 	display:flex;
 	padding:0px;
 	margin:5px;
-}
-.octocat{
-	
+	flex-wrap:wrap;
 }
 .octocat > a > img {
 	width:440px;
