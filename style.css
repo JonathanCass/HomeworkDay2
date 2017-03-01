@@ -16,7 +16,7 @@ body{
 }
 .octocat > a > img {
 	width:440px;
-	border:#d3d3d3 solid 1px;
+	outline:#d3d3d3 solid 1px;
 	margin: 10px;
 }
 
