@@ -1,9 +1,17 @@
 body{
 	font-family:Arial,Sans-serif;
-	padding-top: 100px;
+	border-top: black solid 140px;
+	border-bottom: black solid 300px;
+	border-right: black solid 10px;
+	border-left: black solid 10px;
+	padding:0px;
+	margin:0px;
+	font-size:17px;
 }
 .octodex{
 	display:flex;
+	padding:0px;
+	margin:5px;
 }
 .octocat{
 	
@@ -15,7 +23,7 @@ body{
 }
 
 .image-footer img {
-	width:30px;
+	width:28px;
 }
 .image-footer {
 	width:440px;
@@ -29,7 +37,7 @@ body{
 	content:'#';
 }
 .image-number{
-	font-size:18px;
+	font-size:16px;
 	font-color:#d3d3d3;
 	margin-top: 7px;
 	margin-right:auto;
@@ -42,13 +50,11 @@ a {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
-	font-size: 20px;
 }
 li {
 	list-style-type: none;
 }
 span {
-	font-size :20px;
 	color: #a9a9a9;
 	margin-left:10px;
 	margin-right:10px;
